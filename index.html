@@ -18,11 +18,44 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tiago Bresolin | Sites, agentes de IA e sistemas que vendem</title>
 <meta name="description" content="Crio sites, sistemas e agentes de IA para empresas que querem atrair mais clientes e construir autoridade online.">
+<meta name="author" content="Tiago Bresolin">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="./">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Tiago Bresolin | Sites, agentes de IA e sistemas que vendem">
+<meta property="og:description" content="Sites, sistemas e agentes de IA para empresas que querem atrair mais clientes e construir autoridade online.">
+<meta property="og:url" content="./">
+<meta property="og:image" content="minhafoto.png">
+<meta property="og:image:alt" content="Tiago Bresolin">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tiago Bresolin | Sites, agentes de IA e sistemas que vendem">
+<meta name="twitter:description" content="Sites, sistemas e agentes de IA para empresas que querem atrair mais clientes e construir autoridade online.">
+<meta name="twitter:image" content="minhafoto.png">
 <meta name="theme-color" content="#0b6b5b">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b6b5b'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Tiago Bresolin",
+  "description": "Sites, sistemas e agentes de IA para empresas que querem atrair mais clientes e construir autoridade online.",
+  "url": "./",
+  "image": "minhafoto.png",
+  "email": "tiagoblink182@gmail.com",
+  "areaServed": "BR",
+  "founder": {
+    "@type": "Person",
+    "name": "Tiago Bresolin"
+  },
+  "sameAs": [
+    "https://github.com/tiagoblink182"
+  ]
+}
+</script>
 <style>
   * { box-sizing: border-box; }
   html { scroll-behavior: smooth; }
@@ -44,6 +77,9 @@
   .hv-card:hover { transform: translateY(-4px); box-shadow: 0 24px 50px -30px rgba(13,27,22,.35); }
   .hv-lift:hover { transform: translateY(-2px); }
   .hv-white:hover { color: #fff !important; }
+  a:focus-visible { outline: 3px solid #f3a3a3; outline-offset: 3px; }
+
+  .nav-cta-label-mobile { display: none; }
 
   /* responsivo */
   @media (max-width: 900px) {
@@ -55,6 +91,12 @@
     .about-photo { max-width: 320px; }
   }
   @media (max-width: 480px) {
+    header > div { padding: 12px 16px !important; }
+    header nav { gap: 12px !important; }
+    header nav > a:first-child { display: none; }
+    .nav-cta-label { display: none; }
+    .nav-cta-label-mobile { display: inline; }
+    .float-wa { right: 14px !important; bottom: calc(14px + env(safe-area-inset-bottom)) !important; padding: 12px 15px !important; }
     .h1-hero { font-size: 33px !important; }
     .h2-big { font-size: 27px !important; }
     .cta-big { font-size: 30px !important; }
@@ -77,11 +119,13 @@
         <a href="#servicos" style="font-weight: 600; font-size: 15px; color: #43524d;">Serviços</a>
         <a href="https://wa.me/5551993416111?text=Oi!%20Vi%20o%20seu%20portf%C3%B3lio%20e%20queria%20saber%20mais." target="_blank" rel="noopener" class="hv-wa" style="display: inline-flex; align-items: center; gap: 9px; background: #0b6b5b; color: #fff; font-weight: 700; font-size: 15px; padding: 11px 20px; border-radius: 999px; box-shadow: 0 6px 18px -8px rgba(11,107,91,.7); transition: background .2s;">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="#fff"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.85 9.85 0 001.599 5.283l-1 3.652 3.891-1.634zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.074-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414z"/></svg>
-          Chamar no WhatsApp
+          <span class="nav-cta-label">Chamar no WhatsApp</span><span class="nav-cta-label-mobile">WhatsApp</span>
         </a>
       </nav>
     </div>
   </header>
+
+  <main>
 
   <!-- HERO -->
   <section style="position: relative; background: linear-gradient(180deg,#ffffff 0%,#f4f7f5 100%);">
@@ -291,7 +335,7 @@
     <div class="about-grid sec-pad" style="max-width: 1180px; margin: 0 auto; padding: 62px 28px; display: grid; grid-template-columns: .8fr 1.2fr; gap: 56px; align-items: start;">
       <div>
         <span style="font-weight: 700; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #0b6b5b;">Quem sou</span>
-        <img src="minhafoto.png" alt="Tiago Bresolin" style="margin-top: 24px; width: 100%; aspect-ratio: 1/1; border-radius: 20px; object-fit: cover; display: block;">
+        <img src="minhafoto.png" alt="Tiago Bresolin" width="1254" height="1254" loading="lazy" decoding="async" style="margin-top: 24px; width: 100%; aspect-ratio: 1/1; border-radius: 20px; object-fit: cover; display: block;">
       </div>
       <div>
         <h2 class="h2-big" style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 34px; line-height: 1.12; letter-spacing: -.02em; margin: 0; color: #0d1b16;">Sou o Tiago Bresolin, de Parobé.</h2>
@@ -317,6 +361,8 @@
     </div>
   </section>
 
+  </main>
+
   <!-- FOOTER -->
   <footer style="background: #0b141a; color: #cdd8d2;">
     <div style="max-width: 1180px; margin: 0 auto; padding: 52px 28px; display: flex; flex-wrap: wrap; gap: 28px; justify-content: space-between; align-items: flex-start;">
@@ -340,7 +386,7 @@
   </footer>
 
   <!-- FLOAT WHATSAPP -->
-  <a href="https://wa.me/5551993416111?text=Oi!%20Vi%20o%20seu%20portf%C3%B3lio%20e%20queria%20saber%20mais." target="_blank" rel="noopener" class="hv-lift" aria-label="Falar no WhatsApp" style="position: fixed; right: 22px; bottom: 22px; z-index: 60; display: inline-flex; align-items: center; gap: 10px; background: #25d366; color: #073d34; font-weight: 700; font-size: 15px; padding: 13px 20px; border-radius: 999px; box-shadow: 0 14px 30px -8px rgba(37,211,102,.7); transition: transform .2s;">
+  <a href="https://wa.me/5551993416111?text=Oi!%20Vi%20o%20seu%20portf%C3%B3lio%20e%20queria%20saber%20mais." target="_blank" rel="noopener" class="hv-lift float-wa" aria-label="Falar no WhatsApp" style="position: fixed; right: 22px; bottom: 22px; z-index: 60; display: inline-flex; align-items: center; gap: 10px; background: #25d366; color: #073d34; font-weight: 700; font-size: 15px; padding: 13px 20px; border-radius: 999px; box-shadow: 0 14px 30px -8px rgba(37,211,102,.7); transition: transform .2s;">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="#073d34"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.85 9.85 0 001.599 5.283l-1 3.652 3.891-1.634zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.074-.149-.669-1.611-.916-2.206-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414z"/></svg>
     WhatsApp
   </a>

@@ -41,10 +41,9 @@ Espere 1 a 2 minutos e atualize a página de **Settings → Pages**. Vai aparece
 
 ## Opcional (melhora o Google)
 
-Depois que tiver o link, abra o `index.html`, ache o comentário
-`<!-- Depois de publicar, preencha a URL... -->` no topo, troque `SEU-USUARIO.github.io/portfolio` pelo
-seu link real e **descomente** as duas linhas (tire o `<!--` e o `-->`). Suba o arquivo de novo
-(passo 3). Isso ajuda o site a aparecer melhor nas buscas.
+O `index.html` já inclui descrição, dados estruturados, canonical e prévia para compartilhamento. Depois de publicar, abra o arquivo e troque `./` nos campos `canonical`, `og:url` e no campo `url` do JSON-LD pela URL completa do site, por exemplo `https://seu-usuario.github.io/portfolio/`. Faça o mesmo com `minhafoto.png` nos campos `og:image` e `twitter:image`, usando a URL completa da foto. Suba o arquivo de novo (passo 3).
+
+Depois, cadastre o endereço no [Google Search Console](https://search.google.com/search-console) e solicite a indexação da página. O Google precisa conseguir acessar o site publicado; abrir apenas o arquivo no computador não o torna pesquisável.
 
 ---
 
